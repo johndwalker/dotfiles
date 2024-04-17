@@ -96,3 +96,7 @@ if [[ -x $(which exa) ]]; then
   alias lt='exa --tree $exa_params'
   alias tree='exa --tree $exa_params'
 fi
+
+if [[ -x $(which bat) ]]; then
+  alias cat=bat
+fi
